@@ -29,6 +29,7 @@ main {
     height: 100%;
     max-width: 385px;
     margin: 0 auto;
+    -webkit-animation: fadein 1s ease-in;
     animation: fadein 1s ease-in;
 }
 
@@ -59,6 +60,7 @@ h1.img-header {
     text-indent: -9999px;
     text-align: center;
     margin: 0 auto;
+    -webkit-animation: slideup 1.6s ease;
     animation: slideup 1.6s ease;
 }
 
