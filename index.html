@@ -49,6 +49,8 @@
     </body>
     <script>
         window.addEventListener('coolEvent', function(event) {
+          console.log(event);
+          event.source.postMessage('hi', event.origin);
           document.body.innerHTML = 'It worked :)';
         }, false);
     </script>
